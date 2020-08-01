@@ -1,8 +1,10 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Articles</title>
+    <link rel="stylesheet" href="{%static 'styles.css'%}">
 </head>
 <body>
 <h1>Article List</h1>
@@ -10,7 +12,7 @@
     {%for article in articles %}
         <div class="article">
             <h2><a href="#">{{article.title}}</a></h2>
-            <p>{{article.body}}</p>
+            <p>{{article.snippets}}</p>
             <p>{{article.date}}</p>
         </div>
     {% endfor %}
