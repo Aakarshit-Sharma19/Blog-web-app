@@ -1,0 +1,10 @@
+[33m73b941c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Added urlpattern for staticfiles_urlpattern in blogapp/urls.py,Added STATICFILES_DIR in  blogapp/settings.py,Added assets to store staticfiles
+[33mf18bec5[m modified articles/views.py, modified articles/templates/articles/article_list.html to show articles
+[33md9582da[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Added superuser,Registered article model in article.admin
+[33m493a511[m Made migrations for Article model and added few entries with python interactive shell
+[33ma7fc50f[m Merge branch 'django_models'
+[33m985a6f0[m add few files
+[33mda920c7[m add Article model in Articles app
+[33me30906b[m Added articles app and modified urls,views in articles and blogapp
+[33mab18775[m URLS and Views
+[33mfa14a50[m Initial commit
